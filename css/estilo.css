@@ -87,6 +87,11 @@ footer {
     color: #fff;
 }
 
+.link-email {
+    text-decoration: none;
+    color: #00FF00;
+}
+
 /* Media queries para responsividade */
 @media screen and (max-width: 768px) {
     /* Ajustar estilos para telas menores */
