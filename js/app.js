@@ -3,12 +3,15 @@ console.log(tecnologias);
 // Buscar o elemento pelo ID
 let resultado = document.getElementById ( "mostrar-resultado" );
 
-resultado.innerHTML = `
- <div class="intem-resultado">
-    <h2>
-        <a href="#" target="_blank">Teste JavaScript</a>
-    </h2>
-    <p class="descricao-meta">teste de injeção de html através do javaScript</p>
-    <a href="">Mais Informações</a>
-</div>
-`
+// Para cada dado dentro da lista de Tecnologias
+for ( let dado of tecnologias ) {
+    resultado.innerHTML = `
+     <div class="intem-resultado">
+        <h2>
+            <a href="#" target="_blank">${dado.nome}</a>
+        </h2>
+        <p class="descricao-meta">${dado.descricao}</p>
+        <a href="${dado.link}">Mais Informações</a>
+    </div>
+    `
+}
