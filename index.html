@@ -8,13 +8,18 @@
     </head>
     <body>
         <header>
-            <h1>Guru da Tecnologia...</h1>
-            <p>Aqui você aprende um pouco de cada tecnologia do mundo DEV</p>
+            <div class="img-guru">
+                <img src="assents/img/guru.png" alt>
+            </div>
+            <div class="texto-titulo">
+                <h1>Guru da Tecnologia</h1>
+                <p id="titulo-guru"></p>
+            </div>
         </header>
-        
+
         <main>
             <section class="busca">
-                <input type="text" placeholder="Qual Tecnologia deseja saber?">
+                <input id="campo-pesquisa" type="text" placeholder="Qual Tecnologia deseja saber?">
                 <button onclick="pesquisar()">Pesquisar</button>
             </section>
 
@@ -25,8 +30,10 @@
 
         <footer>
             <p>2024 - Todos direitos reservados </p>
-            <p>Entre em contato pelo E-mail: <a class="link-email" href="malito:marcosmendes@gmail.com" >marcosmendesm10@gmail.com</a></p>
-            <p>Desenvolvido por <span class="texto-destaque">Marcos Mendes</span></p>
+            <p>Entre em contato pelo E-mail: <a class="link-email"
+                    href="malito:marcosmendes@gmail.com">marcosmendesm10@gmail.com</a></p>
+            <p>Desenvolvido por <span class="texto-destaque">Marcos
+                    Mendes</span></p>
         </footer>
 
         <script src="js/dados.js"></script>

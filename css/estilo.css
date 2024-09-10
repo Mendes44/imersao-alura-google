@@ -19,6 +19,23 @@ h1 {
     font-family: 'Courier New', Courier, monospace; /* Fonte com aspecto técnico */
     font-size: 2.5rem;
     color: #00FF00; /* Verde vibrante para destacar a palavra "tecnologia" */
+    margin: 0;
+}
+
+.texto-titulo p {
+    margin: 0;
+}
+
+.img-guru {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.img-guru img {
+    width: 150px;
 }
 
 /* Seção principal */
@@ -63,18 +80,60 @@ button:hover {
 
 /* Seção de resultados */
 .mostrar-resultado {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 2rem;
+    margin-bottom: 10rem;
+    line-height: 32px;
+
+    background-color: #222;
+    max-width: 1024px;
+    padding: 10px;
+}
+
+
+.intem-resultado {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    transition: transform 0.2s;
+    text-align: justify;
+}
+
+.intem-resultado h2 {
+    color: #00FF00;
+    margin-bottom: 0.5rem;
     text-align: center;
 }
 
+.intem-resultado p {
+    margin: 0.5rem 0;
+}
+
+.intem-resultado a {
+    text-decoration: none;
+    color: #00FF00;
+    font-weight: bold;
+}
+
+.intem-resultado:hover {
+    transform: scale(1.02); /* Efeito de leve aumento ao passar o mouse */
+}
+
+
 /* Rodapé */
 footer {
+    width: 100%;
     background-color: #222;
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    font-size: 10px;
 }
 
 .texto-destaque {
@@ -92,6 +151,11 @@ footer {
     color: #00FF00;
 }
 
+.link-email:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
 /* Media queries para responsividade */
 @media screen and (max-width: 768px) {
     /* Ajustar estilos para telas menores */
@@ -101,4 +165,45 @@ footer {
     input[type="text"] {
         width: 90%;
     }
+    .busca {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-guru  img {
+        width: 100px;
+    }
+
 }
+
+
+/* Animação de flutuação para a imagem */
+@keyframes flutuar {
+    0% {
+        transform: translateY(0); /* Posição inicial */
+    }
+    50% {
+        transform: translateY(-10px); /* Sobe um pouco */
+    }
+    100% {
+        transform: translateY(0); /* Volta à posição inicial */
+    }
+}
+
+.img-guru img {
+    width: 150px;
+    animation: flutuar 3s ease-in-out infinite; /* Animação da imagem flutuando */
+}
+
+/* Estilo do Paragrafo principal */
+#titulo-guru {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: #fff; /* Verde vibrante */
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+

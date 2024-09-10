@@ -1,4 +1,3 @@
-//tecnologias
 let tecnologias = [
     {
         nome: "JavaScript",
@@ -6,7 +5,7 @@ let tecnologias = [
         link: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
         ano_criacao: 1995,
         paradigmas: ["Multiparadigma"],
-        uso: ["Desenvolvimento web frontend", "Desenvolvimento de jogos", "Aplicações móveis (React Native)"]
+        uso: ["Desenvolvimento web frontend", " Desenvolvimento de jogos", " Aplicações móveis (React Native)"]
     },
     {
         nome: "C#",
@@ -84,7 +83,7 @@ let tecnologias = [
         nome: "Inteligência Artificial (IA)",
         descricao: "Simulação de processos de inteligência humana por máquinas, especialmente sistemas de computadores. Inclui aprendizado de máquina, deep learning, processamento de linguagem natural e visão computacional.",
         link: "https://pt.wikipedia.org/wiki/Inteligência_artificial",
-        ano_criacao: "1950s", // A IA tem raízes nos anos 50, mas evoluiu significativamente desde então
+        ano_criacao: "1950s",
         paradigmas: ["Aprendizado de máquina", "Deep learning"],
         uso: ["Assistentes virtuais", "Veículos autônomos", "Diagnóstico médico", "Recomendação de produtos"]
     },
@@ -98,79 +97,86 @@ let tecnologias = [
     },
     {
         nome: "Deep Learning",
-        descricao: "Subcampo do aprendizado de máquina que utiliza redes neurais artificiais com múltiplas camadas para aprender representações complexas de dados.",   
-
+        descricao: "Subcampo do aprendizado de máquina que utiliza redes neurais artificiais com múltiplas camadas para aprender representações complexas de dados.",
         link: "https://pt.wikipedia.org/wiki/Aprendizagem_profunda",
         ano_criacao: "1980s",
-        paradigmas: "Redes neurais artificiais",
-        uso: "Visão computacional, processamento de linguagem natural, reconhecimento de fala"
+        paradigmas: ["Redes neurais artificiais"],
+        uso: ["Visão computacional, processamento de linguagem natural, reconhecimento de fala"]
     },
     {
         nome: "Cloud Computing",
         descricao: "Modelo de computação que permite o acesso a recursos computacionais, como servidores, armazenamento e bancos de dados, sob demanda através da internet.",
         link: "https://pt.wikipedia.org/wiki/Computação_em_nuvem",
         ano_criacao: "1960s (conceito), popularização nos anos 2000",
-        paradigmas: "IaaS, PaaS, SaaS",
-        uso: "Armazenamento de dados, desenvolvimento de software, hospedagem de sites"
-    }, 
+        paradigmas: ["IaaS, PaaS, SaaS"],
+        uso: ["Armazenamento de dados, desenvolvimento de software, hospedagem de sites"]
+    },
     {
         nome: "Docker",
         descricao: "Plataforma de containerização que permite empacotar aplicativos e suas dependências em contêineres isolados.",
-        tipo: "Infraestrutura",
-        uso: ["Desenvolvimento", "Deploy"],
-        link: "https://www.docker.com/"
+        link: "https://www.docker.com/",
+        ano_criacao: 2013,
+        paradigmas: ["Infraestrutura"],
+        uso: ["Desenvolvimento", "Deploy"]
     },
     {
         nome: "Kubernetes",
         descricao: "Sistema de orquestração de contêineres para automatizar o deployment, scaling e gerenciamento de aplicações containerizadas.",
-        tipo: "Infraestrutura",
-        uso: ["Gerenciamento de contêineres"],
-        link: "https://kubernetes.io/"
+        link: "https://kubernetes.io/",
+        ano_criacao: 2014,
+        paradigmas: ["Infraestrutura"],
+        uso: ["Gerenciamento de contêineres"]
     },
     {
         nome: "Node.js",
         descricao: "Ambiente de execução JavaScript para construir aplicações de servidor.",
-        tipo: "Framework",
-        uso: ["Desenvolvimento backend", "Aplicações de tempo real"],
-        link: "https://nodejs.org/"
+        link: "https://nodejs.org/",
+        ano_criacao: 2009,
+        paradigmas: ["Framework"],
+        uso: ["Desenvolvimento backend", "Aplicações de tempo real"]
     },
     {
         nome: "Angular",
         descricao: "Framework TypeScript para desenvolvimento de aplicações web single-page.",
-        tipo: "Framework",
-        uso: ["Desenvolvimento frontend"],
-        link: "https://angular.io/"
+        link: "https://angular.io/",
+        ano_criacao: 2016,
+        paradigmas: ["Framework"],
+        uso: ["Desenvolvimento frontend"]
     },
     {
         nome: "AWS (Amazon Web Services)",
         descricao: "A maior plataforma de nuvem do mundo, oferecendo uma ampla gama de serviços de computação, armazenamento, banco de dados, redes e muito mais.",
-        tipo: "Plataforma de Cloud",
-        uso: ["Desenvolvimento de aplicações web e mobile", "Análise de dados", "Inteligência artificial", "Internet das Coisas"],
         link: "https://aws.amazon.com/",
+        ano_criacao: 2006,
+        paradigmas: ["Plataforma de Cloud"],
+        uso: ["Desenvolvimento de aplicações web e mobile", "Análise de dados", "Inteligência artificial", "Internet das Coisas"],
         servicos_destaque: ["EC2", "S3", "RDS", "Lambda"]
     },
     {
         nome: "Azure (Microsoft Azure)",
         descricao: "Plataforma de nuvem da Microsoft, com integração profunda com produtos Microsoft e uma ampla gama de serviços de computação, armazenamento e banco de dados.",
-        tipo: "Plataforma de Cloud",
-        uso: ["Desenvolvimento de aplicações .NET e híbridas", "Análise de dados", "Inteligência artificial"],
         link: "https://azure.microsoft.com/",
-        servicos_destaque: ["Azure Functions, Azure SQL Database, Azure Kubernetes Service"]
+        ano_criacao: 2010,
+        paradigmas: ["Plataforma de Cloud"],
+        uso: ["Desenvolvimento de aplicações .NET e híbridas", "Análise de dados", "Inteligência artificial"],
+        servicos_destaque: ["Azure Functions", "Azure SQL Database", "Azure Kubernetes Service"]
     },
     {
         nome: "GCP (Google Cloud Platform)",
         descricao: "Plataforma de nuvem do Google, com foco em escalabilidade, desempenho e inteligência artificial.",
-        tipo: "Plataforma de Cloud",
-        uso: ["Análise de dados em grande escala, Machine learning, Desenvolvimento de aplicações containerizadas"],
         link: "https://cloud.google.com/",
-        servicos_destaque: "Compute Engine, Cloud Storage, BigQuery, TensorFlow"
+        ano_criacao: 2008,
+        paradigmas: ["Plataforma de Cloud"],
+        uso: ["Análise de dados em grande escala", "Machine learning", "Desenvolvimento de aplicações containerizadas"],
+        servicos_destaque: ["Compute Engine", "Cloud Storage", "BigQuery", "TensorFlow"]
     },
     {
         nome: "Oracle Cloud Infrastructure (OCI)",
         descricao: "Plataforma de nuvem da Oracle, com foco em desempenho e integração com banco de dados Oracle.",
-        tipo: "Plataforma de Cloud",
-        uso: ["Desenvolvimento de aplicações corporativas, Banco de dados, Integração com sistemas legados"],
         link: "https://www.oracle.com/cloud/",
-        servicos_destaque: "Oracle Autonomous Database, Compute Instances, Object Storage"
+        ano_criacao: 2012,
+        paradigmas: ["Plataforma de Cloud"],
+        uso: ["Desenvolvimento de aplicações corporativas", "Banco de dados", "Integração com sistemas legados"],
+        servicos_destaque: ["Oracle Autonomous Database", "Compute Instances", "Object Storage"]
     }
 ];
