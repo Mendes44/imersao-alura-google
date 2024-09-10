@@ -14,7 +14,7 @@ Esse projeto foi construído com as seguintes tecnologias:
 ## 🧙‍♂️ Funcionalidades Principais
 
 - **Pesquisa Interativa**: Digite o nome de uma tecnologia que deseja aprender e veja um resumo completo com informações como descrição, paradigmas, ano de criação e mais!
-- **Efeito de Animação de Texto**: O título "Guru da Tecnologia" é digitado suavemente, criando uma sensação de mistério e sabedoria, como se o próprio guru estivesse se revelando!
+- **Efeito de Animação de Texto**: O paragrafo "logo abaixo de Guru da Tecnologia" é digitado suavemente, criando uma sensação de mistério e sabedoria, como se o próprio guru estivesse se revelando!
 - **Animação Flutuante**: A imagem do guru não fica parada! Ele flutua suavemente, como se estivesse pairando no ar, pronto para compartilhar todo seu conhecimento.
 - **Interface Simples e Atraente**: Visual escuro com destaque em verde vibrante, inspirado no estilo técnico e moderno.
 
@@ -35,6 +35,10 @@ Esse projeto foi construído com as seguintes tecnologias:
 4. **Divirta-se com as animações**:
    - Veja o título ser digitado automaticamente como um efeito de digitação.
    - Observe o guru flutuando calmamente no topo da página, pronto para compartilhar sua sabedoria!
+
+5. **Ou pode acessar diretamente do link abaixo:**:
+   [Visite o Projeto](https://imersao-alura-google-omega.vercel.app/)
+
 
 ## 🎨 Design Criativo
 
