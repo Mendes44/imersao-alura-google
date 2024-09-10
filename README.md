@@ -36,7 +36,7 @@ Esse projeto foi construído com as seguintes tecnologias:
    - Veja o título ser digitado automaticamente como um efeito de digitação.
    - Observe o guru flutuando calmamente no topo da página, pronto para compartilhar sua sabedoria!
 
-5. **Ou pode acessar diretamente do link abaixo:**:
+5. **Ou pode acessar diretamente do link**:
    [Visite o Projeto](https://imersao-alura-google-omega.vercel.app/)
 
 
